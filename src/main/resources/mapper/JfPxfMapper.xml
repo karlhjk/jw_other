@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cgt.dao.JfPxfMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cgt.dao.entity.JfPxf">
+        <id column="id" property="id" />
+        <result column="d1" property="d1" />
+        <result column="d2" property="d2" />
+        <result column="d3" property="d3" />
+        <result column="d4" property="d4" />
+        <result column="d5" property="d5" />
+        <result column="d6" property="d6" />
+        <result column="d7" property="d7" />
+        <result column="d8" property="d8" />
+        <result column="d9" property="d9" />
+        <result column="d10" property="d10" />
+        <result column="d11" property="d11" />
+        <result column="d12" property="d12" />
+        <result column="d13" property="d13" />
+        <result column="d14" property="d14" />
+        <result column="d15" property="d15" />
+        <result column="d16" property="d16" />
+        <result column="d17" property="d17" />
+        <result column="d18" property="d18" />
+        <result column="d19" property="d19" />
+        <result column="d20" property="d20" />
+        <result column="d21" property="d21" />
+        <result column="d22" property="d22" />
+        <result column="d23" property="d23" />
+        <result column="d24" property="d24" />
+        <result column="d25" property="d25" />
+        <result column="file" property="file" />
+    </resultMap>
+
+</mapper>

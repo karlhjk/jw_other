@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cgt.dao.JfJiedaiMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cgt.dao.entity.JfJiedai">
+        <id column="id" property="id" />
+        <result column="a1" property="a1" />
+        <result column="aa11" property="aa11" />
+        <result column="aa12" property="aa12" />
+        <result column="aa13" property="aa13" />
+        <result column="aa21" property="aa21" />
+        <result column="aa22" property="aa22" />
+        <result column="aa23" property="aa23" />
+        <result column="aa24" property="aa24" />
+        <result column="aa25" property="aa25" />
+        <result column="a2" property="a2" />
+        <result column="a3" property="a3" />
+        <result column="a4" property="a4" />
+        <result column="a5" property="a5" />
+        <result column="a6" property="a6" />
+        <result column="a7" property="a7" />
+        <result column="a8" property="a8" />
+        <result column="a9" property="a9" />
+        <result column="a10" property="a10" />
+        <result column="a11" property="a11" />
+        <result column="file" property="file" />
+    </resultMap>
+
+</mapper>

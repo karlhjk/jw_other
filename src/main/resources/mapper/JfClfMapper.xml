@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cgt.dao.JfClfMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cgt.dao.entity.JfClf">
+        <id column="id" property="id" />
+        <result column="b1" property="b1" />
+        <result column="b2" property="b2" />
+        <result column="b3" property="b3" />
+        <result column="b4" property="b4" />
+        <result column="b5" property="b5" />
+        <result column="b6" property="b6" />
+        <result column="b7" property="b7" />
+        <result column="b8" property="b8" />
+        <result column="b81" property="b81" />
+        <result column="b82" property="b82" />
+        <result column="b83" property="b83" />
+        <result column="b84" property="b84" />
+        <result column="b9" property="b9" />
+        <result column="b10" property="b10" />
+        <result column="file" property="file" />
+    </resultMap>
+
+</mapper>
